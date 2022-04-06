@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  padding: 1rem 10rem;
+  /* margin: 0rem 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 30px;
+  color: #6968af;
+}
+
+a {
+  text-decoration: none;
+  /* margin-right: 10px; */
+  color: black;
+}
+.linkovi {
+  display: flex;
+  gap: 10px;
+}
+.first {
+  color: #9b99f4;
+}
+.b-btn {
+  font-weight: 500;
+  margin-top: -10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: #1b1a60;
+  border: solid #9b99f4;
+}
+
+.hero {
+  width: 100%;
+  height: 80vh;
+}
+
+.btn {
+  width: 180px;
+  font-weight: 500;
+  margin-top: -10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: #1b1a60;
+  border: solid #9b99f4;
+}
+.a-btn {
+  width: 150px;
+  /* font-size: 15px; */
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #514dec;
+  color: white;
+  border: none;
+}
+
+.hero {
+  display: flex;
+  padding: 5rem 10rem;
+  align-items: center;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #3b3868;
+  font-family: "Roboto";
+}
+.text-cont p {
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.text-cont i {
+  background-color: transparent;
+  border: transparent solid 0.1px;
+  color: blue;
+}
+
+.last {
+  padding-bottom: 20px;
+}
+img {
+  width: 600px;
+  height: auto;
+}
+footer {
+  background-color: #ebebf3e1;
+  height: 10vh;
+  display: flex;
+  padding: 0 10rem;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.icons {
+  font-size: 15px;
+  display: flex;
+  gap: 20px;
+  border-radius: 50%;
+  background-color: #ebebf3e2;
+}
+.fa {
+  padding: 7px;
+  border: #b7b7c1 solid 0.1px;
+  border-radius: 50%;
+  background-color: #b7b7c1;
+}
+.arrow-up {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  background-color: blue;
+}
+span {
+  color: #6968af;
+}
